@@ -2,7 +2,7 @@
 
 namespace StructureMap.DynamicInterception
 {
-    internal class CastleInterceptor : IInterceptor
+    public class CastleInterceptor : IInterceptor
     {
         private readonly IInterceptionBehavior[] _interceptionBehaviors;
 
